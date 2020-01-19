@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\Program Files\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj",
+      "projectUniqueName": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj",
       "projectName": "PizzaSlice",
-      "projectPath": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\Program Files\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj",
+      "projectPath": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj",
       "packagesPath": "C:\\Users\\Sunkanmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\Program Files\\PizzaSlice\\PizzaSlice\\obj\\",
+      "outputPath": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
