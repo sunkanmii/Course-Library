@@ -14,11 +14,11 @@ namespace Pizza_Slice_Unit_Test
         {
             string document = @"./Inputs/a_example.in";
 
-            string[] pizzaMaxNTypes = pizzaObj.MaxNType(document);
+            Dominos pizzaObj = new Dominos();
 
             int[] pizzaOrders = pizzaObj.OrderPizza(document);
 
-            Assert.AreEqual(pizzaOrders[2], "8");
+            Assert.AreEqual(pizzaOrders[0], 0);
         }
     }
 }

@@ -90,9 +90,12 @@ namespace PizzaSlice
                     }
                 }
             }
+
             sortedPizzaOrders = pizzaOrders.ToArray();
 
-            CountingSort.CountSort(sortedPizzaOrders, sortedPizzaOrders[0] + 1);
+            CountingSort sortObj = new CountingSort();
+
+            sortObj.CountSort(sortedPizzaOrders);
 
             return sortedPizzaOrders; 
         }

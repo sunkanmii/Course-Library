@@ -6,15 +6,15 @@ namespace PizzaSlice
 {
     public class CountingSort
     {
-        public static void CountSort(int[] arr, int largestNum)
+        public void CountSort(int[] arr)
         {
             int arrLength = arr.Length;
 
             int[] output = new int[arrLength];
 
-            int[] count = new int[largestNum];
+            int[] count = new int[505000];
 
-            for (int i = 0; i < largestNum; i++)
+            for (int i = 0; i < 505000; i++)
             {
                 count[i] = 0;
             }
@@ -30,7 +30,7 @@ namespace PizzaSlice
             // Change count[i] so that count[i]  
             // now contains actual position of  
             // the character in output array 
-            for (int i = 1; i < largestNum; i++)
+            for (int i = 1; i < 505000; i++)
             {
                 count[i] += count[i - 1];
             }
