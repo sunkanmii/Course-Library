@@ -29,7 +29,11 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj": {
+                "projectPath": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -53,6 +57,57 @@
               "target": "Package",
               "version": "[15.9.0, )"
             },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj",
+        "projectName": "PizzaSlice",
+        "projectPath": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj",
+        "packagesPath": "C:\\Users\\Sunkanmi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sunkanmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
               "target": "Package",
               "version": "[2.1.0, )",

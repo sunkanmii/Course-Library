@@ -2,11 +2,18 @@
 
 namespace PizzaSlice
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dominos domObj = new Dominos();
+
+            string document = @"./Inputs/d_quite_big.in";
+            int[] sortedPizzaOrders = domObj.OrderPizza(document);
+
+            foreach(int element in sortedPizzaOrders) { 
+                Console.WriteLine(element);
+            }
         }
     }
 }

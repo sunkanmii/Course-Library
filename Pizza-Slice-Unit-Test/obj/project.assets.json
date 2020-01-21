@@ -1617,6 +1617,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "PizzaSlice/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.1.0"
+        },
+        "compile": {
+          "bin/placeholder/PizzaSlice.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaSlice.dll": {}
+        }
       }
     }
   },
@@ -5810,6 +5823,11 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "PizzaSlice/1.0.0": {
+      "type": "project",
+      "path": "../PizzaSlice/PizzaSlice.csproj",
+      "msbuildProject": "../PizzaSlice/PizzaSlice.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5817,7 +5835,8 @@
       "MSTest.TestAdapter >= 1.3.2",
       "MSTest.TestFramework >= 1.3.2",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "PizzaSlice >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5849,7 +5868,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj": {
+              "projectPath": "C:\\Users\\Sunkanmi\\Documents\\My_Personal_Workfiles\\Hashcode competition practice problems\\Hashcode-Practice\\2020\\PizzaSlice\\PizzaSlice\\PizzaSlice.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

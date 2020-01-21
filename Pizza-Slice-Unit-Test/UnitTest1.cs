@@ -11,9 +11,9 @@ namespace Pizza_Slice_Unit_Test
         {
             string document = @"./Inputs/a_example.in";
 
-            PizzaSlice pizzaObj = new PizzaSlice();
+            var pizzaObj = new PizzaSlice();
 
-            string[] pizzaMaxNTypes = pizzaObj.MaxNType(document);
+            string[] pizzaMaxNTypes;
 
             Assert.AreEqual(pizzaMaxNTypes[0], "17");
         }
@@ -23,7 +23,7 @@ namespace Pizza_Slice_Unit_Test
         {
             string document = @"./Inputs/b_small.in";
 
-            PizzaSlice pizzaObj = new PizzaSlice();
+            Dominos pizzaObj = new PizzaSlice();
 
             string[] pizzaMaxNTypes = pizzaObj.MaxNType(document);
 
@@ -64,5 +64,6 @@ namespace Pizza_Slice_Unit_Test
 
             Assert.AreEqual(pizzaMaxNTypes[0], "505000000");
         }
+
     }
 }

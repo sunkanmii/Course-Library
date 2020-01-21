@@ -7,10 +7,26 @@
 
   <ItemGroup>
     <None Remove="Inputs\a_example.in" />
+    <None Remove="Inputs\b_small.in" />
+    <None Remove="Inputs\c_medium.in" />
+    <None Remove="Inputs\d_quite_big.in" />
+    <None Remove="Inputs\e_also_big.in" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Inputs\a_example.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inputs\b_small.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inputs\c_medium.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inputs\d_quite_big.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Inputs\e_also_big.in">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
